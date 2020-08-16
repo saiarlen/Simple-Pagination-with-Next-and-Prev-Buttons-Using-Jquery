@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple Pagination with Next and  Prev Buttons Using Jquery</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container mx-top">
+  <h3>Simple Pagination</h3>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+
+        <div class="comment-widgets">
+          <!-- Comment Row -->
+          <div class="d-flex flex-row comment-row m-t-0">
+            <div class="p-2"><img src="https://dummyimage.com/100x100/000/fff" alt="user" width="50" class="rounded-circle"></div>
+            <div class="comment-text w-100">
+              <h6 class="font-medium">James Anderson Post 1</h6>
+              <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+             
+            </div>
+          </div>
+          <!-- Comment Row -->
+          <div class="d-flex flex-row comment-row">
+            <div class="p-2"><img src="https://dummyimage.com/100x100/000/fff" alt="user" width="50" class="rounded-circle"></div>
+            <div class="comment-text active w-100">
+              <h6 class="font-medium">Michael Jorden Post 2</h6>
+              <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+             
+            </div>
+          </div>
+          <!-- Comment Row -->
+          <div class="d-flex flex-row comment-row">
+            <div class="p-2"><img src="https://dummyimage.com/100x100/000/fff" alt="user" width="50" class="rounded-circle"></div>
+            <div class="comment-text w-100">
+              <h6 class="font-medium">Johnathan Doeting Post 3</h6>
+              <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+             
+            </div>
+          </div>
+          <!-- Comment Row -->
+          <div class="d-flex flex-row comment-row">
+            <div class="p-2"><img src="https://dummyimage.com/100x100/000/fff" alt="user" width="50" class="rounded-circle"></div>
+            <div class="comment-text w-100">
+              <h6 class="font-medium">Johnathan Doeting Post 4</h6>
+              <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+             
+            </div>
+          </div>
+          <!-- Comment Row -->
+          <div class="d-flex flex-row comment-row">
+            <div class="p-2"><img src="https://dummyimage.com/100x100/000/fff" alt="user" width="50" class="rounded-circle"></div>
+            <div class="comment-text w-100">
+              <h6 class="font-medium">Johnathan Doeting Post 5</h6>
+              <span class="m-b-15 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry. </span>
+             
+            </div>
+          </div>
+          <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+            <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+          </div>
+          <div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;">
+            <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Pag buttons -->
+  <div class="row">
+    <div class="col-sm-12">
+
+      <nav class="pg-nav" aria-label="Page navigation">
+        <span class="page-item">
+          <a class="pre page-link" href="javascript:void(0)" aria-label="Previous" disabled>
+            <span aria-hidden="true">«</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </span>
+        <ul class="pagination">
+
+        </ul>
+        <span class="page-item">
+          <a class="nex page-link" href="javascript:void(0)" aria-label="Next">
+            <span aria-hidden="true">»</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </span>
+      </nav>
+
+    </div>
+  </div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
